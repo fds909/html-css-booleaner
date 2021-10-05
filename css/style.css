@@ -9,18 +9,22 @@
 /* body */
 body {
     font-family: Arial;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* Container */
 .container {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* Header */
 header {
 
+}
+
+main div {
+    padding: 20px 0 20px;
 }
 
 .blue-block {
@@ -36,22 +40,35 @@ header {
     font-weight: 400;
 }
 
+/* Logo principale */
 #logo {
-    height: 50%;
+    height: 2em;
 }
 
 #banner  {
-    height: 20vh;
+    height: 18vh;
 }
 
-#pattern {
+.pattern {
     background-image: url('../img/pattern.png');
+    background-repeat: repeat;
+}
+
+#didascalia {
+    font-size: 11px;
 }
 
 h1 {
     font-size: 32px;
 }
 
+img {
+    max-width: 45%;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
 
 
 
